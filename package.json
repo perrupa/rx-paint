@@ -1,0 +1,27 @@
+{
+  "name": "rx-paint",
+  "version": "1.0.0",
+  "description": "MS Paint in JS with RX.js",
+  "main": "index.js",
+  "repository": {},
+  "author": "Chris Marlow",
+  "license": "MIT",
+  "dependencies": {
+    "rx": "^4.1.0"
+  },
+  "scripts": {
+    "start": "webpack && open ./index.html",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "css-loader": "^0.27.3",
+    "file-loader": "^0.10.1",
+    "http-server": "^0.9.0",
+    "style-loader": "^0.14.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.2.1"
+  }
+}
