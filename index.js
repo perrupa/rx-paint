@@ -12,7 +12,4 @@ const coordinates = Rx.Observable
 
 coordinates.forEach(drawDot)
 coordinates.forEach(log)
-coordinates.forEach(([x,y]) => {
-  console.log(coordinates.toArray())
-})
 
